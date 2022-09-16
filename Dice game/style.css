@@ -1,0 +1,61 @@
+@font-face {
+    font-family: heading;
+    src: url(head.ttf);
+}
+@font-face {
+    font-family: chicago;
+    src: url(Chicago.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(109, 35, 179);
+}
+.gameinfo{
+
+    margin-top: 20px;
+}
+.infotext{
+    font-family: heading;
+    text-align: center;
+    font-size: 4vw;
+}
+.gamecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.dicetext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    gap: 30px;
+    font-family: chicago;
+}
+.game img{
+    width: 20vw;
+}
+#roll{
+    font-size: 1.3vw;
+    margin-top: 70px;
+    padding: 6px 14px;
+    cursor: pointer;
+    border-radius: 6px;
+    background: rgb(173, 173, 173);
+}
+#roll:hover{
+    border-radius: 6px;
+    cursor: pointer;
+    background: rgb(224, 224, 224);
+}
